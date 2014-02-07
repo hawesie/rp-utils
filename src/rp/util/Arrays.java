@@ -174,9 +174,4 @@ public class Arrays {
         }
     }
     
-    @SuppressWarnings("deprecation")
-	public static <T> List<T> asList(T[] _items) {
-    	return new ArrayList<T>(_items);
-    }
-    
 }
