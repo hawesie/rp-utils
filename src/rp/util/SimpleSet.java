@@ -26,7 +26,7 @@ public class SimpleSet<V> implements Collection<V> {
   }
 
   public boolean isEmpty() {
-    return m_inner.size() != 0;
+    return m_inner.size() == 0;
   }
 
   public boolean contains(Object o) {
