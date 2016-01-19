@@ -1,8 +1,6 @@
 package rp.util;
 
-import java.util.ArrayList;
-import java.util.List;
-
+@SuppressWarnings({"rawtypes", "unchecked"})
 public class Arrays {
 
   /**
@@ -84,7 +82,7 @@ public class Arrays {
    * high is the end index in dest to end sorting
    * off is the offset to generate corresponding low, high in src
    */
-  private static void mergeSort(Object[] src,
+private static void mergeSort(Object[] src,
           Object[] dest,
           int low,
           int high,
@@ -135,7 +133,7 @@ public class Arrays {
      * high is the end index in dest to end sorting
      * off is the offset into src corresponding to low in dest
      */
-    private static void mergeSort(Object[] src,
+	private static void mergeSort(Object[] src,
 				  Object[] dest,
 				  int low, int high, int off,
 				  Comparator c) {
