@@ -15,6 +15,7 @@ import java.util.RandomAccess;
  *
  * @author nah
  */
+@SuppressWarnings({"rawtypes", "unchecked"})
 public class Collections {
 
   private Collections() {
@@ -63,7 +64,6 @@ public class Collections {
    * @param dest The array to fill.
    * @return _list as an array.
    */
-  @SuppressWarnings("unchecked")
   public static <T, E> T[] toArray(Collection<E> _list, T[] dest) {
     int j = 0;
     int max = dest.length;
