@@ -3,6 +3,7 @@ package rp.util;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings({"rawtypes", "unchecked"})
 public class Arrays {
 
   /**
